@@ -1,114 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
 
-body {
-    background: url(./medias/img/background.jpg);
-}
-
-.wrap {
-    margin: 100px auto;
-    border: solid 5px white;
-    border-radius: 50px;
-    width: 80vw;
-}
-
-header {
-    background: var(--bg-button);
-    backdrop-filter: blur(10px);
-    width: 80vw;
-    margin: auto;
-    border-radius: 50px 50px 0px 0px;
-}
-main {
-    background: var(--bg-button);
-    backdrop-filter: blur(10px);
-    width: 80vw;
-    margin: auto;
-}
-
-h2 {
-    text-align: center;
-    padding: 20px;
-}
-
-.container-main {
-    display: flex;
-    padding: 20px;
-    gap: 20px;
-}
-
-
-.main-gauche {
-    background: var(--bg-button);
-    border: solid 5px var(--bd-button);
-    border-radius: 50px;
-    width: 60vw;
-    padding: 20px;
-}
-
-aside {
-    background: var(--bg-button);
-    border: solid 5px var(--bd-button);
-    border-radius: 50px;
-    width: 20vw;
-    padding: 20px;
-}
-
-footer {
-    background: var(--bg-button);
-    backdrop-filter: blur(10px);
-    width: 80vw;
-    margin: auto;
-    border-radius: 0px 0px 50px 50px;
-}
-
-.container-footer {
-    display: flex;
-    padding: 20px;
-    gap: 50px;
-    width: 80vw;
-}
-
-.footer-gauche{
-    flex-direction: column;
-    background: var(--bg-button);
-    border: solid 5px var(--bd-button);
-    border-radius: 50px;
-    width: 35vw;
-    padding: 20px;
-}
-
-.footer-droite {
-    background: var(--bg-button);
-    border: solid 5px var(--bd-button);
-    border-radius: 50px;
-    width: 35vw;
-    padding: 20px;
-}
-
-
-.liste-info {
-    display: flex;
-    line-height: 15px;
-    gap: 30px;
-    padding: 20px;
-    width: 40vw;
-}
-
-.mois {
-    display: flex;
-    gap: 30px;
-    line-height: 15px;
-}
-
-
-
-nav ul{
-    background-color: var(--bg-button);
-    display: flex;
-    gap: 5vw;
-    font-size: 2em;
-}
-
 :root {
     --bg:#B5B5B5;
     --hover:#0B4680;
@@ -116,7 +7,6 @@ nav ul{
     --bg-button:rgba(255, 255, 255, 0.5);
     --bd-button:rgba(255, 255, 255, 0.25);
     --text-shadow:rgba(0, 0, 0, 0.101);
-
 }
 
 * {
@@ -129,7 +19,7 @@ li {
 }
 
 button {
-    width: 341px;
+    width: 18vw;
     height: 85px;
     background: var(--bg-button) ;
     color: black;
@@ -166,4 +56,159 @@ li, h1, h2, h3 , h4 , h5, h6 {
 
 p {
     color: black;
+}
+
+hr {
+    height: 10px;
+    background: #fff;
+    border: none;
+    margin: 50px 0px;
+}
+
+
+body {
+    background: url(./medias/img/background.jpg);
+}
+
+.wrap {
+    margin: 50px auto;
+    border: solid 5px var(--bd-button);
+    border-radius: 50px;
+    width: 80vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-button);
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    margin: auto;
+    border-radius: 50px 50px 0px 0px;
+}
+
+header img {
+    width: 60vw;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+main {
+    background: var(--bg-button);
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    margin: auto;
+    border-radius: 0px 0px 50px 50px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    filter: blur(0px);
+}
+
+
+.main-gauche {
+    background: var(--bg-button);
+    border: solid 5px var(--bd-button);
+    border-radius: 50px;
+    width: 60vw;
+    padding: 20px;
+}
+
+aside {
+    background: var(--bg-button);
+    border: solid 5px var(--bd-button);
+    border-radius: 50px;
+    width: 20vw;
+    padding: 20px;
+}
+
+
+.facebook {
+    margin: 20px 0px ;
+    display: flex;
+    font-size: 1.3em;
+    line-height: 20px;
+    gap: 15px;
+}
+
+.facebook img {
+    width: 20px;
+    height: 20px;
+}
+
+
+footer {
+    background: var(--bg-button);
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    margin: auto;
+    border-radius: 50px 50px 50px 50px;
+    border: solid 5px var(--bd-button);
+}
+
+.container-footer {
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    width: 80vw;
+}
+
+.footer-gauche{
+    flex-direction: column;
+    background: var(--bg-button);
+    border: solid 5px var(--bd-button);
+    border-radius: 50px;
+    width: 35vw;
+    padding: 20px;
+}
+
+.footer-droite {
+    background: var(--bg-button);
+    border: solid 5px var(--bd-button);
+    border-radius: 50px;
+    width: 35vw;
+    padding: 20px;
+}
+
+
+.liste-info {
+    display: flex;
+    line-height: 15px;
+    gap: 30px;
+    padding: 20px;
+    width: 30vw;
+}
+
+.footer-gauche li, h4, h5{
+    color: black;
+}
+
+.mois {
+    display: flex;
+    gap: 30px;
+    line-height: 15px;
+}
+
+
+
+nav ul{
+    background-color: var(--bg-button);
+    display: flex;
+    width: 80vw;
+    gap: 5vw;
+    font-size: 2em;
+    justify-content: center;
+}
+
+nav ul li:hover {
+    color: var(--hover);
 }
