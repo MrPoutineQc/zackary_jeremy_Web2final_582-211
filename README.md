@@ -1,8 +1,6 @@
-# zackary_jeremy_Web2final_582-211
+# Coeur de Village
 
-## Coeur de Village
-
-### Projet Scolaire
+## Projet Scolaire
 
 ###   - Projet Final 
 
