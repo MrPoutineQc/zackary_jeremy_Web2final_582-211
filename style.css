@@ -166,6 +166,7 @@ footer {
     margin: auto;
     border-radius: 50px 50px 50px 50px;
     border: solid 5px var(--bd-button);
+    margin-bottom: 50px;
 }
 
 .container-footer {
@@ -175,14 +176,7 @@ footer {
     width: 80vw;
 }
 
-.footer-gauche{
-    flex-direction: column;
-    background: var(--bg-button);
-    border: solid 5px var(--bd-button);
-    border-radius: 50px;
-    width: 35vw;
-    padding: 20px;
-}
+
 
 .footer-droite {
     background: var(--bg-button);
@@ -205,10 +199,25 @@ footer {
     color: black;
 }
 
+.info {
+    flex-direction: column;
+    background: var(--bg-button);
+    border: solid 5px var(--bd-button);
+    border-radius: 50px;
+    width: 35vw;
+    padding: 20px;
+}
+
 .mois {
+    margin: 20px auto;
     display: flex;
     gap: 30px;
     line-height: 15px;
+    width: 20vw;
+}
+
+select {
+    width: 150px;
 }
 
 
