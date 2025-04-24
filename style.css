@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+
 main {
-    background-image: url();
+    background: rgb(192, 192, 192);
 }
 
 :root {
@@ -7,6 +9,9 @@ main {
     --hover:#0B4680;
     --text: white;
     --bg-button:rgba(255, 255, 255, 0.5);
+    --bd-button:rgba(255, 255, 255, 0.25);
+    --text-shadow:rgba(0, 0, 0, 0.101);
+
 }
 
 * {
@@ -19,9 +24,13 @@ button {
     height: 85px;
     background: var(--bg-button) ;
     color: black;
-    font-size: 2em;
-    text-shadow: 0px 5px rgba(0, 0, 0, 0.101);
-    border: solid 2px rgba(255, 255, 255, 0.25);
+    font-size: 24px;
+    font-family: "Lemonada", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-shadow: 0px 5px var(--text-shadow);
+    border: solid 5px var(--bd-button);
     border-radius: 50px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.032);
 }
@@ -33,6 +42,10 @@ button:hover {
 
 li, h1, h2, h3 , h4 , h5, h6 {
     color: var(--text);
+    font-family: "Lemonada", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 p {
