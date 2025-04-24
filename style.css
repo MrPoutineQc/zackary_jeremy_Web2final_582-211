@@ -14,6 +14,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style: none;
 }
@@ -131,6 +135,13 @@ aside {
     padding: 20px;
 }
 
+aside img {
+    border-radius: 10px;
+    width: 8vw;
+    height: 8vw;
+    gap: 4vw;
+}
+
 
 .facebook {
     margin: 20px 0px ;
@@ -143,6 +154,7 @@ aside {
 .facebook img {
     width: 20px;
     height: 20px;
+    border-radius: 50px;
 }
 
 
