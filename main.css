@@ -7,6 +7,11 @@ main h4 {
     padding-bottom: 20px;
 }
 
+.main-gauche {
+    overflow: scroll;
+    height: 1300px;
+}
+
 .main-gauche img{
     width: 50vw;
     height: 400px;
