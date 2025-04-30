@@ -238,7 +238,7 @@ nav ul{
     display: flex;
     width: 80vw;
     gap: 5vw;
-    font-size: 2em;
+    font-size: clamp(1vw,2em,4vw);
     justify-content: center;
 }
 
