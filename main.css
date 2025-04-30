@@ -9,6 +9,7 @@ main h4 {
 
 .main-gauche {
     overflow: scroll;
+    scrollbar-width: none;
     height: 1300px;
 }
 
