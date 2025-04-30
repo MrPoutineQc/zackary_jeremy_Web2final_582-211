@@ -10,7 +10,12 @@ main h4 {
 .main-gauche {
     overflow: scroll;
     scrollbar-width: none;
+    -ms-overflow-style: none;
     height: 1300px;
+}
+
+.main-gauche::-webkit-scrollbar {
+    display: none;
 }
 
 .main-gauche img{
