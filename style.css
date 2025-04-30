@@ -3,6 +3,7 @@
 :root {
     --bg:#B5B5B5;
     --hover:#0B4680;
+    --blue-text:#0B4680;
     --text: white;
     --bg-button:rgba(255, 255, 255, 0.5);
     --bd-button:rgba(255, 255, 255, 0.25);
@@ -20,6 +21,12 @@ a {
 
 li {
     list-style: none;
+    color: var(--blue-text);
+    font-family: "Lemonada", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 0px 5px var(--text-shadow);
 }
 
 button {
@@ -49,7 +56,7 @@ button:hover {
     color: var(--text);
 }
 
-li, h1, h2, h3 , h4 , h5, h6 {
+h1, h2, h3 , h4 , h5, h6 {
     color: var(--text);
     font-family: "Lemonada", cursive;
     font-optical-sizing: auto;
@@ -110,6 +117,7 @@ main {
 h2 {
     text-align: center;
     padding: 20px;
+    font-size: 35px;
 }
 
 .container-main {
@@ -220,6 +228,9 @@ select {
     width: 150px;
 }
 
+nav {
+    backdrop-filter: blur(150px);
+}
 
 
 nav ul{
@@ -232,7 +243,7 @@ nav ul{
 }
 
 nav ul li:hover {
-    color: var(--hover);
+    color: black;
     transition:all 0.5s ease-in-out;
 }
 
