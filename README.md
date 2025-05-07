@@ -9,4 +9,4 @@
 #### Équipe
 
 - Jérémy Thériault
-- Zackaru Warren
+- Zackary Warren
