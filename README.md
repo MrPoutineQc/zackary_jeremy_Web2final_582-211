@@ -1,12 +1,12 @@
 # Coeur de Village
 
-## Projet Scolaire
+Projet Scolaire
 
 https://tim-montmorency.com/timdoc/582-211/projets/refonte-siteweb/ - Projet Final 
 
-#### Collège Montmorency
+Collège Montmorency
 
-#### Équipe
+Équipe
 
 - Jérémy Thériault
 - Zackary Warren
