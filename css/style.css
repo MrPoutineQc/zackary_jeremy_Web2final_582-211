@@ -238,7 +238,7 @@ nav ul{
     display: flex;
     width: 80vw;
     gap: 5vw;
-    font-size: clamp(1vw,2em,4vw);
+    font-size: clamp(10px, 1.5vw, 60px);
     justify-content: center;
 }
 
@@ -262,7 +262,7 @@ nav ul li:hover {
     }
 
     aside {
-        width: 70vw;
+        display: none;
     }
 
     button {
