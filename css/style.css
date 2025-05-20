@@ -9,7 +9,7 @@
     --blue-text: #0B4680;
     --text: white;
     --bg-button: rgba(255, 255, 255, 0.5);
-    --bd-button: rgba(255, 255, 255, 0.25);
+    --bd-button: rgba(255, 255, 255, 0.75);
     --text-shadow: rgba(0, 0, 0, 0.101);
 }
 
@@ -86,15 +86,21 @@ hr {
 
 
 body {
-    /* background: url(../medias/img/background.jpg); */
-    background-color: black;
+    background: url(../medias/img/background.avif);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
+.wrap-backdrop {
+    backdrop-filter: brightness(50%);
+    padding: 50px;
+}
+
+
 .wrap {
     margin: 50px auto;
-    border: solid 10px var(--bg-button);
-    border-radius: 55px;
+    border: solid 10px var(--bd-button);
+    border-radius: 50px;
     width: 80vw;
     max-width: 1407px;
     justify-content: center;
@@ -105,11 +111,10 @@ header {
     flex-direction: column;
     width: 80vw;
     margin: auto;
-    max-width: 1410px;
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    border-radius: 50px 50px 0px 0px;
+    max-width: 1407px;
+    background: var(--bg-button);
+    backdrop-filter: blur(10px);
+    border-radius: 40px 40px 0px 0px;
 }
 
 #banner {
@@ -125,8 +130,9 @@ main {
     backdrop-filter: blur(10px);
     width: 80vw;
     margin: auto;
-    border-radius: 0px 0px 50px 50px;
-    max-width: 1410px;
+    border-radius: 0px 0px 40px 40px;
+    border-color: var(--bd-button);
+    max-width: 1407px;
 }
 
 h2 {
@@ -217,14 +223,14 @@ footer {
     border-radius: 50px;
     width: 30vw;
     padding: 20px;
-    
+
     max-width: 650px;
 }
 
 
 .liste-info {
     display: flex;
-    line-height: 15px;
+    line-height: 20px;
     gap: 30px;
     padding: 20px;
     width: 30vw;
@@ -234,7 +240,7 @@ footer {
 h4,
 h5 {
     color: black;
-    font-size: clamp(10px, 1vw , 20px);
+    font-size: clamp(10px, 1vw, 20px);
 }
 
 .info {
@@ -261,16 +267,17 @@ h5 {
 
 select {
     width: 150px;
+    scale: 1.25;
+    border-radius: 5px;
 }
 
 nav {
-    backdrop-filter: blur(150px);
-    max-width: 1400px;
+    max-width: 1407px;
 }
 
 
 nav ul {
-    background-color: var(--bd-button);
+    background-color: var(--bg-button);
     display: flex;
     width: 80vw;
     gap: 5vw;
@@ -281,9 +288,13 @@ nav ul {
     height: 8vh;
 }
 
+nav ul li {
+    transition: all 0.3s ease-in-out;
+}
+
 nav ul li:hover {
     color: black;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 
