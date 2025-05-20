@@ -46,6 +46,7 @@ button {
     border: solid 5px var(--bd-button);
     border-radius: 50px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.032);
+    transition: all 0.3s ease-in-out;
 }
 
 .container-button {
@@ -119,7 +120,6 @@ header {
 
 #banner {
     width: 60vw;
-    height: 300px;
     padding: 20px;
     margin: auto;
     max-width: 1200px;
@@ -156,6 +156,13 @@ h2 {
     border-radius: 50px;
     width: 60vw;
     padding: 20px;
+}
+
+.main-gauche h2 {
+    font-size: clamp(25px, 1.5vw, 30px);
+}
+.main-gauche h4 {
+    font-size: clamp(20px, 1.5vw, 30px);
 }
 
 aside {
@@ -254,7 +261,7 @@ h5 {
 }
 
 .info p {
-    font-size: clamp(10px, 1vw, 18px);
+    font-size: clamp(17px, 1vw, 18px);
 }
 
 .mois {
