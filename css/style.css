@@ -114,7 +114,6 @@ header {
 
 #banner {
     width: 60vw;
-    height: 300px;
     padding: 20px;
     margin: auto;
     max-width: 1200px;
@@ -150,6 +149,13 @@ h2 {
     border-radius: 50px;
     width: 60vw;
     padding: 20px;
+}
+
+.main-gauche h2 {
+    font-size: clamp(25px, 1.5vw, 30px);
+}
+.main-gauche h4 {
+    font-size: clamp(20px, 1.5vw, 30px);
 }
 
 aside {
@@ -234,7 +240,7 @@ footer {
 h4,
 h5 {
     color: black;
-    font-size: clamp(10px, 1vw , 20px);
+    font-size: clamp(17px, 1vw , 20px);
 }
 
 .info {
@@ -248,7 +254,7 @@ h5 {
 }
 
 .info p {
-    font-size: clamp(10px, 1vw, 18px);
+    font-size: clamp(17px, 1vw, 18px);
 }
 
 .mois {
