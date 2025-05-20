@@ -238,6 +238,10 @@ footer {
     max-width: 650px;
 }
 
+.info p {
+    font-size: clamp(10px, 1vw, 18px);
+}
+
 .mois {
     margin: 20px auto;
     display: flex;
