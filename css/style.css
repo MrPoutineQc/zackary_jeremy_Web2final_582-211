@@ -187,12 +187,16 @@ footer {
     border: solid 5px var(--bd-button);
     margin-bottom: 50px;
     max-width: 1400px;
+    display: flex;
+    justify-content: center;
 }
 
 .container-footer {
     display: flex;
+    gap: 1vw;
     padding: 20px;
     width: 80vw;
+    max-width: 1400px;
     justify-content: space-around;
 }
 
@@ -204,6 +208,8 @@ footer {
     border-radius: 50px;
     width: 30vw;
     padding: 20px;
+    
+    max-width: 650px;
 }
 
 
@@ -215,8 +221,11 @@ footer {
     width: 30vw;
 }
 
+
+
 .footer-gauche li, h4, h5{
     color: black;
+    font-size: clamp(10px, 1vw , 20px);
 }
 
 .info {
@@ -226,6 +235,7 @@ footer {
     border-radius: 50px;
     width: 35vw;
     padding: 20px;
+    max-width: 650px;
 }
 
 .mois {
@@ -265,6 +275,9 @@ nav ul li:hover {
 
 
 @media only screen and (max-width:1000px){
+
+    
+
     .container-main {
         display: flex;
         flex-direction: column;
