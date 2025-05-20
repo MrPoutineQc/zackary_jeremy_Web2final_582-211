@@ -89,6 +89,8 @@ body {
     border: solid 5px var(--bd-button);
     border-radius: 50px;
     width: 80vw;
+    max-width: 1400px;
+    justify-content: center;
 }
 
 header {
@@ -99,6 +101,7 @@ header {
     width: 80vw;
     margin: auto;
     border-radius: 50px 50px 0px 0px;
+    max-width: 1400px;
 }
 
 header img {
@@ -106,6 +109,7 @@ header img {
     height: 400px;
     padding: 20px;
     margin: auto;
+    max-width: 1200px;
 }
 
 main {
@@ -114,6 +118,7 @@ main {
     width: 80vw;
     margin: auto;
     border-radius: 0px 0px 50px 50px;
+    max-width: 1400px;
 }
 
 h2 {
@@ -157,9 +162,13 @@ aside img {
 .facebook {
     margin: 20px 0px 0px;
     display: flex;
-    font-size: 1.3em;
-    line-height: 60px;
+    justify-content: center;
+    align-items: center;
     gap: 0px;
+}
+
+.facebook h5 {
+    font-size: clamp(10px,1.5vw, 15px);
 }
 
 .facebook img {
@@ -177,6 +186,7 @@ footer {
     border-radius: 50px 50px 50px 50px;
     border: solid 5px var(--bd-button);
     margin-bottom: 50px;
+    max-width: 1400px;
 }
 
 .container-footer {
@@ -232,6 +242,7 @@ select {
 
 nav {
     backdrop-filter: blur(150px);
+    max-width: 1400px;
 }
 
 
@@ -240,8 +251,9 @@ nav ul{
     display: flex;
     width: 80vw;
     gap: 5vw;
-    font-size: clamp(10px, 1.5vw, 60px);
+    font-size: clamp(10px, 1.5vw, 25px);
     justify-content: center;
+    max-width: 1400px;
 }
 
 nav ul li:hover {
