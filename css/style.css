@@ -36,7 +36,7 @@ button {
     height: 85px;
     background: var(--bg-button) ;
     color: black;
-    font-size: clamp(0.5rem,24px, 4rem);
+    font-size: clamp(10px,1.5vw, 20px);
     font-family: "Lemonada", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
