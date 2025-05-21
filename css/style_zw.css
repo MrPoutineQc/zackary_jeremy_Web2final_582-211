@@ -1,6 +1,36 @@
+
+
 .main-gauche {
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
     height: 1300px;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.service-container {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.service-box {
+    margin-bottom: 4vh;
+    border: 3px red solid;
+    width: 13vw;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.service-box img {
+    width: 10vw;
 }
