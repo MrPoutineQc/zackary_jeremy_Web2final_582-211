@@ -92,10 +92,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.wrap-backdrop {
-    backdrop-filter: brightness(50%);
-}
-
 .wrap {
     margin: 50px auto;
     border: solid 10px var(--bd-button);
@@ -159,6 +155,7 @@ h2 {
 .main-gauche h2 {
     font-size: clamp(25px, 1.5vw, 30px);
 }
+
 .main-gauche h4 {
     font-size: clamp(20px, 1.5vw, 30px);
 }
@@ -230,7 +227,8 @@ footer img {
     margin: 20px 0px 0px 40px;
 }
 
-.ligne-haut, .ligne-bas {
+.ligne-haut,
+.ligne-bas {
     display: flex;
     align-items: center;
     justify-content: center;
