@@ -266,6 +266,11 @@ footer img {
     width: 30vw;
 }
 
+.liste-info .un {
+    line-height: 50px;
+    align-items: center;
+}
+
 .footer-gauche li,
 h4,
 h5 {
@@ -345,5 +350,21 @@ nav ul li:hover {
 
     button {
         width: 70vw;
+    }
+
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .footer-droite {
+        width: 100vw;
+    }
+
+    .info {
+        width: 100vw;
+    }
+
+    .mois {
+        justify-content: center;
     }
 }
