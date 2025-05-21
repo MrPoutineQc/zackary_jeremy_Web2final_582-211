@@ -213,6 +213,32 @@ footer {
     justify-content: center;
 }
 
+footer img {
+    width: 7vw;
+    margin-right: 20px;
+}
+
+.ligne-haut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 0px 0px 40px;
+}
+
+.ligne-bas {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 40px;
+}
+
+.ligne-haut, .ligne-bas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .container-footer {
     display: flex;
     gap: 1vw;
@@ -230,7 +256,6 @@ footer {
     border-radius: 50px;
     width: 30vw;
     padding: 20px;
-
     max-width: 650px;
 }
 
