@@ -297,11 +297,12 @@ footer img {
     align-items: center;
 }
 
+
 .footer-gauche li,
 h4,
 h5 {
     color: black;
-    font-size: clamp(10px, 1vw, 20px);
+    font-size: clamp(10px, 3vw, 20px);
 }
 
 .info {
@@ -386,6 +387,19 @@ nav ul li:hover {
     .footer-droite {
         width: 70vw;
         justify-content: center;
+        padding-bottom: 5vh;
+    }
+
+    .ligne-haut {
+        scale: 1.5;
+    }
+    
+    .ligne-bas {
+        scale: 1.5;
+    }
+
+    .trois {
+        width: 50vh;
     }
 
     .info {
