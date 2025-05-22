@@ -54,11 +54,6 @@
 
 /*[PAGE NOUS JOINDRE]*/
 
-p {
-    font-family: "lemonada";
-    line-height: 2vh;
-}
-
 .map-image {
     margin-top: 10vh;
     display: flex;

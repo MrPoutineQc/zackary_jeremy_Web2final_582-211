@@ -1,5 +1,5 @@
 /*STYLE CRÉER PAR JÉRÉMY THÉRIAULT*/
-/*Quelque Modifications apporté par Zackary Warren*/
+/*Plusieurs modifications apportées par Zackary Warren*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
 
@@ -77,6 +77,12 @@ h6 {
 
 p {
     color: black;
+    
+}
+
+footer p {
+    font-family: "lemonada";
+    line-height: 3vh;
 }
 
 hr {
