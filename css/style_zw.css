@@ -4,10 +4,6 @@
     height: 1300px;
 }
 
-h3 {
-    font-size: 3em;
-}
-
 .service-container {
     margin-top: 1vh;
     display: flex;
@@ -31,12 +27,24 @@ h3 {
 }
 
 .service-box p {
+    display: flex;
     text-align: center;
-    line-height: 5vh;
+    line-height: 3vh;
     font-family: "lemonada";
-    font-size: clamp(10px, 3vw, 35px);
+    font-size: clamp(12px, 1.8vw, 30px);
 }
 
 .service-box img {
     width: 10vw;
+}
+
+@media only screen and (max-width:1000px) {
+    .service-box {
+        width: 18vw;
+        height: 300px;
+    }
+
+    .service-box img {
+        width: 15vw;
+    }
 }

@@ -87,9 +87,28 @@ hr {
 }
 
 body {
-    background: url(../medias/img/background.avif);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #e8b9c9, #bfb9d1, #68b1c3, #154d75, #e2a97d);
+    background-size: 400%, 400%;
+    animation: animationBackground 5s ease-in-out infinite;
+}
+
+@keyframes animationBackground {
+
+    0% {
+        background-position: 0% 25%;
+    }
+    25% {
+        background-position: 25% 50%;
+    }
+    50% {
+        background-position: 50% 75%;
+    }
+    75% {
+        background-position: 75% 100%;
+    }
+    100% {
+        background-position: 0% 25%;
+    }
 }
 
 .wrap {
@@ -154,8 +173,9 @@ h2 {
     padding: 20px;
 }
 
-.main-gauche h2 {
+.main-gauche h3 {
     font-size: clamp(25px, 1.5vw, 30px);
+    color: var(--blue-text);
 }
 
 .main-gauche h4 {
@@ -200,7 +220,7 @@ aside img {
 footer {
     background: var(--bg-flou);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);    
+    -webkit-backdrop-filter: blur(10px);
     width: 80vw;
     margin: auto;
     border-radius: 50px 50px 50px 50px;
