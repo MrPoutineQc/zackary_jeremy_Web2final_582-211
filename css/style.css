@@ -89,7 +89,7 @@ hr {
 body {
     background: linear-gradient(135deg, #e8b9c9, #bfb9d1, #68b1c3, #154d75, #e2a97d);
     background-size: 400%, 400%;
-    animation: animationBackground 5s ease-in-out infinite;
+    animation: animationBackground 8s ease-in-out infinite;
 }
 
 @keyframes animationBackground {
@@ -97,15 +97,19 @@ body {
     0% {
         background-position: 0% 25%;
     }
+
     25% {
         background-position: 25% 50%;
     }
+
     50% {
         background-position: 50% 75%;
     }
+
     75% {
         background-position: 75% 100%;
     }
+
     100% {
         background-position: 0% 25%;
     }
@@ -179,7 +183,8 @@ h2 {
 }
 
 .main-gauche h4 {
-    font-size: clamp(20px, 1.5vw, 30px);
+    font-size: clamp(20px, 1vw, 30px);
+    color: var(--blue-text);
 }
 
 aside {

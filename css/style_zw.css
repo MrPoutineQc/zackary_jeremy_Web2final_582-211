@@ -4,6 +4,8 @@
     height: 1300px;
 }
 
+/*[PAGE SERVICE]*/
+
 .service-container {
     margin-top: 1vh;
     display: flex;
@@ -46,5 +48,30 @@
 
     .service-box img {
         width: 15vw;
+    }
+}
+
+
+/*[PAGE NOUS JOINDRE]*/
+
+p {
+    font-family: "lemonada";
+    line-height: 2vh;
+}
+
+.map-image {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.map-image img {
+    display: flex;
+    width: 50vw;
+}
+
+@media only screen and (max-width:1000px) {
+    .map-image img {
+        width: 70vw;
     }
 }
