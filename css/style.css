@@ -404,6 +404,10 @@ nav ul li:hover {
         justify-content: center;
         padding-bottom: 5vh;
     }
+
+    .info p {
+        width: 40vw;
+    }
     /*désigne la taille des images*/
     .ligne-haut {
         scale: 1.5;
