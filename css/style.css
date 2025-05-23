@@ -77,7 +77,6 @@ h6 {
 
 p {
     color: black;
-    
 }
 
 footer p {
@@ -90,10 +89,11 @@ hr {
     background: #fff;
     border: none;
     margin: 50px 0px;
+    border-radius: 5px;
 }
 
 body {
-    background: linear-gradient(135deg, #e8b9c9, #bfb9d1, #68b1c3, #154d75, #e2a97d);
+    background: linear-gradient(135deg, #b36e7d, #8f87a6, #3f869d, #0b2e4a, #b97651);
     background-size: 400%, 400%;
     animation: animationBackground 8s ease-in-out infinite;
 }
@@ -366,7 +366,6 @@ nav ul li:hover {
     transition: all 0.3s ease-in-out;
 }
 
-
 @media only screen and (max-width:1000px) {
     .container-main {
         display: flex;
@@ -400,7 +399,7 @@ nav ul li:hover {
     .ligne-haut {
         scale: 1.5;
     }
-    
+
     .ligne-bas {
         scale: 1.5;
     }
