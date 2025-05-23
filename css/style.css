@@ -1,8 +1,11 @@
 /*STYLE CRÉER PAR JÉRÉMY THÉRIAULT*/
 /*Plusieurs modifications apportées par Zackary Warren*/
 
+
+/* [Importation de la Typographie avec Google Font] */
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
 
+/*-------------------------- [IDENTIFICATION DES VARIABLES] --------------------------*/
 :root {
     --bg: #B5B5B5;
     --hover: #0B4680;
@@ -14,11 +17,15 @@
     --text-shadow: rgba(0, 0, 0, 0.101);
 }
 
+/*-------------------------- [STYLE GÉNÉRAL] --------------------------*/
+
+/* Enlève les marges par défaut */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Enlève la décoration des balise <a> */
 a {
     text-decoration: none;
 }
@@ -92,6 +99,7 @@ hr {
     border-radius: 5px;
 }
 
+/* Animation CSS changeant la position d'un dégradé linéaire en boucle.*/
 body {
     background: linear-gradient(135deg, #b36e7d, #8f87a6, #3f869d, #0b2e4a, #b97651);
     background-size: 400%, 400%;
@@ -197,7 +205,7 @@ aside {
     background: var(--bg-button);
     border: solid 5px var(--bd-button);
     border-radius: 50px;
-    width: 23vw;
+    width: 20vw;
     padding: 20px;
 }
 
@@ -228,7 +236,7 @@ aside img {
     border-radius: 50px;
 }
 
-
+/* [STYLE FOOTER] */
 footer {
     background: var(--bg-flou);
     backdrop-filter: blur(10px);
@@ -340,6 +348,8 @@ select {
     border-radius: 5px;
 }
 
+/* [STYLE DU MENU NAV] */
+
 nav {
     max-width: 1407px;
 }
@@ -365,6 +375,8 @@ nav ul li:hover {
     color: black;
     transition: all 0.3s ease-in-out;
 }
+
+/*-------------------------- [ADAPTATION PAR MEDIA QUERIES]  --------------------------*/
 
 @media only screen and (max-width:1000px) {
     .container-main {
