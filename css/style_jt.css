@@ -1,37 +1,38 @@
+/*désigne la couleur*/
 span {
     color: #4495B2;
 }
-
+/*désigne l'emplacement*/
 .container-main p {
     margin-top: 20px;
 }
-
+/*désigne la taille du texte*/
 h3 {
     font-size: 3em;
 }
-
+/*désigne la taille du texte*/
 main h4 {
     font-size: 2.8em;
     padding-bottom: 20px;
 }
-
+/*désigne le style de la scroll bar (enlever) et la hauteur max*/
 .main-gauche {
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
     height: 1300px;
 }
-
+/*désigne l'apparition de la scroll bar*/
 .main-gauche::-webkit-scrollbar {
     display: none;
 }
-
+/*désigne la largeur*/
 .main-gauche img{
     width: 40vw;
     padding: 20px;
     max-width: 735px;
 }
-
+/*désigne la taille du texte*/
 .main-gauche p {
     font-size: 1.7em;
 }
