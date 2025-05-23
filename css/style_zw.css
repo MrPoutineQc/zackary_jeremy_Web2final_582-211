@@ -1,6 +1,9 @@
 /* [Importation de la Typographie avec Google Font] */
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
 
+/* Importation du CSS pour avoir accès au variable de couleur */
+@import './style.css';
+
 
 /* [Adaptation de la grandeur ] */
 .main-gauche {
@@ -10,6 +13,8 @@
 /*--------------------------[PAGE SERVICE]--------------------------*/
 
 /* Style pour les container dans le main-gauche */
+
+/*Permet de centrer les boîtes et d'ajouter un espace entre elles avec une marge.*/
 .service-container {
     margin-top: 1vh;
     display: flex;
@@ -18,6 +23,7 @@
     gap: 5%;
 }
 
+/* Ajoute le style global a la boite et centre les items qui sont à l'intérieur (titre et image) */
 .service-box {
     margin-bottom: 4vh;
     border: 4px black solid;
@@ -30,6 +36,15 @@
     align-items: center;
     flex-direction: column;
     gap: 6vh;
+    transition: 0.3s ease-in-out;
+}
+
+/* Ajoute un style Hover (Changement de couleur, Transition, Agrandissement léger) */
+.service-box:hover {
+    background-color: var(--blue-text);
+    transition: 0.2s ease-in-out;
+    scale: 1.1;
+    cursor: pointer;
 }
 
 /* Style des textes dans les boites */
@@ -52,8 +67,6 @@
 }
 
 /*[ADAPTATION PAR MEDIA QUERIES]*/
-
-
 @media only screen and (max-width:1000px) {
     .service-box {
         width: 18vw;
