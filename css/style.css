@@ -197,15 +197,16 @@ aside {
     background: var(--bg-button);
     border: solid 5px var(--bd-button);
     border-radius: 50px;
-    width: 20vw;
+    width: 23vw;
     padding: 20px;
 }
 
 aside img {
+    border: 3px white solid;
     border-radius: 10px;
     width: 8vw;
     height: 8vw;
-    padding: 0.3vw;
+    object-fit: cover;
 }
 
 
