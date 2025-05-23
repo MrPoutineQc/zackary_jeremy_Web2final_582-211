@@ -425,7 +425,7 @@ nav ul li:hover {
 /* Stylise les colonnes du burger avec leur grandeur, une couleur d’arrière-plan et une légère bordure, suivies d’une transition pour l’apparition */
 .burger div {
     height: 3px;
-    background: white;
+    background: var(--blue-text);
     border-radius: 2px;
     transition: all 0.3s ease;
 }
@@ -455,7 +455,8 @@ nav ul li:hover {
     justify-content: center;
     color: var(--blue-text);
     padding: 10px 20px;
-    font-size: clamp(12px, 1.5vw, 18px);
+    font-size: clamp(12px, 2vw, 18px);
+    font-weight: 600;
     transition: all 0.3s ease-in-out;
     font-family: "Lemonada", cursive;
 }
