@@ -29,6 +29,7 @@
 a {
     text-decoration: none;
 }
+
 /*enlève le style des listes et change la font*/
 li {
     list-style: none;
@@ -39,6 +40,7 @@ li {
     font-style: normal;
     text-shadow: 0px 5px var(--text-shadow);
 }
+
 /*désine la hauteur et la largeur des boutons, la couleur de fond et des bordures , et change la font*/
 button {
     width: 18vw;
@@ -56,17 +58,20 @@ button {
     box-shadow: 2px 2px rgba(0, 0, 0, 0.032);
     transition: all 0.3s ease-in-out;
 }
+
 /* Désigne comment les boutons doivent se placer (colonne) et ajoute un espace entre chaque bouton*/
 .container-button {
     display: flex;
     flex-direction: column;
     gap: 1vw;
 }
+
 /*change la couleur de fond et la couleur du text lorsque le bouton est survolé*/
 button:hover {
     background-color: var(--hover);
     color: var(--text);
 }
+
 /*Change pour tout les titre la typo*/
 h1,
 h2,
@@ -81,15 +86,18 @@ h6 {
     font-style: normal;
     text-shadow: 0px 5px var(--text-shadow);
 }
+
 /*met tout les paragraphes en noir*/
 p {
     color: black;
 }
+
 /* change la font du footer sur les paragraphes*/
 footer p {
     font-family: "lemonada";
     line-height: 3vh;
 }
+
 /*désigne le style de la ligne*/
 hr {
     height: 10px;
@@ -128,6 +136,7 @@ body {
         background-position: 0% 25%;
     }
 }
+
 /*désigne le style de la boite qui entout le main et le header*/
 .wrap {
     margin: 50px auto;
@@ -137,6 +146,7 @@ body {
     max-width: 1407px;
     justify-content: center;
 }
+
 /*désigne l'emplacement du nav et de l'image, et le style du header (contour, couleur, flou)*/
 header {
     display: flex;
@@ -149,6 +159,7 @@ header {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 40px 40px 0px 0px;
 }
+
 /*désigne la largeur de l'image et la position*/
 #banner {
     width: 60vw;
@@ -156,6 +167,7 @@ header {
     margin: auto;
     max-width: 1200px;
 }
+
 /*désigne la couleur de fond, les bordures, le flou, la largeur et sa position*/
 main {
     background: var(--bg-flou);
@@ -167,6 +179,7 @@ main {
     border-color: var(--bd-button);
     max-width: 1407px;
 }
+
 /*désigne la couleur des h2, sa taille et sa position*/
 h2 {
     text-align: center;
@@ -174,6 +187,7 @@ h2 {
     font-size: 35px;
     color: var(--blue-text);
 }
+
 /*désiqne l'espace entre les deux boites et leur position*/
 .container-main {
     display: flex;
@@ -190,16 +204,19 @@ h2 {
     width: 60vw;
     padding: 20px;
 }
+
 /*désigne la taille du text lorsqu'on change la largeur de la page*/
 .main-gauche h3 {
     font-size: clamp(25px, 1.5vw, 30px);
     color: var(--blue-text);
 }
+
 /*désigne la taille du text lorsqu'on change la largeur de la page*/
 .main-gauche h4 {
     font-size: clamp(20px, 1vw, 30px);
     color: var(--blue-text);
 }
+
 /*désigne la largeur, la couleur de fond et des bordure de la boie de gauche*/
 aside {
     background: var(--bg-button);
@@ -208,6 +225,7 @@ aside {
     width: 20vw;
     padding: 20px;
 }
+
 /*désigne la largeur et hauteur des images*/
 aside img {
     border: 3px white solid;
@@ -225,10 +243,12 @@ aside img {
     align-items: center;
     gap: 0px;
 }
+
 /*désigne la taille du test par rapport a la taille du navigateur */
 .facebook h5 {
     font-size: clamp(10px, 1.5vw, 15px);
 }
+
 /*désigne la taille de l'image et sa forme*/
 .facebook img {
     width: 50px;
@@ -251,11 +271,13 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 /*désigne la largeur des images de la boite a droite*/
 footer img {
     width: 7vw;
     margin-right: 20px;
 }
+
 /*désigne la position des images du haut et leur espacement*/
 .ligne-haut {
     display: flex;
@@ -264,12 +286,14 @@ footer img {
     gap: 50px;
     margin: 40px 0px 0px 40px;
 }
+
 /*désigne la position des images de la ligne du bas et leur espacement*/
 .ligne-bas {
     display: flex;
     justify-content: center;
     margin: 20px 0px 0px 40px;
 }
+
 /*désigne leur position dans la boite*/
 .ligne-haut,
 .ligne-bas {
@@ -278,6 +302,7 @@ footer img {
     justify-content: center;
     gap: 20px;
 }
+
 /*désigne la largeur du container des deux boites, la talle, et l'espacement*/
 .container-footer {
     display: flex;
@@ -319,6 +344,7 @@ h5 {
     color: black;
     font-size: clamp(10px, 3vw, 20px);
 }
+
 /*désigne l'emplacement des information la couleur de fond*/
 .info {
     flex-direction: column;
@@ -329,10 +355,12 @@ h5 {
     padding: 20px;
     max-width: 650px;
 }
+
 /*désigne la taille du texte par rapport a la tialle du navigateur*/
 .info p {
     font-size: clamp(17px, 1vw, 18px);
 }
+
 /*désigne l'emplacement de texte*/
 .mois {
     margin: 20px auto;
@@ -341,6 +369,7 @@ h5 {
     line-height: 15px;
     width: 20vw;
 }
+
 /*désigne le style du select*/
 select {
     width: 150px;
@@ -366,19 +395,24 @@ nav ul {
     max-width: 1410px;
     height: 8vh;
 }
+
 /*désigne la transition*/
 nav ul li {
     transition: all 0.3s ease-in-out;
 }
+
 /*désigne la couleur */
 nav ul li:hover {
     color: black;
     transition: all 0.3s ease-in-out;
 }
 
+/* Cache le burger */
 #burger {
     display: none;
 }
+
+/* Style Burger qui modifie sa grandeur, sa direction d'apparation et affiche un curseur lorsque l'utilisateur passe par-dessus */
 .burger {
     display: flex;
     flex-direction: column;
@@ -386,16 +420,18 @@ nav ul li:hover {
     width: 25px;
     height: 20px;
     cursor: pointer;
-  }
+}
 
-  .burger div {
+/* Stylise les colonnes du burger avec leur grandeur, une couleur d’arrière-plan et une légère bordure, suivies d’une transition pour l’apparition */
+.burger div {
     height: 3px;
     background: white;
     border-radius: 2px;
     transition: all 0.3s ease;
-  }
-  
-  .menu {
+}
+
+/* Style Général du menu burger avec ça transformation, transition quand il apparait  */
+.menu {
     overflow: hidden;
     max-height: 0;
     opacity: 0;
@@ -410,10 +446,10 @@ nav ul li:hover {
     margin: auto;
     max-width: 1407px;
     padding: 0 0;
-  }
-  
-  /* Liens dans le menu */
-  .menu a {
+}
+
+/* Liens dans le menu */
+.menu a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -422,41 +458,42 @@ nav ul li:hover {
     font-size: clamp(12px, 1.5vw, 18px);
     transition: all 0.3s ease-in-out;
     font-family: "Lemonada", cursive;
-  }
-  
-  /* Hover */
-  .menu a:hover {
+}
+
+/* Hover */
+.menu a:hover {
     color: black;
-  }
-  
-  /* Active = animé vers le bas */
-  .menu.active {
-    max-height: 300px; /* Ajuste selon ton contenu */
+}
+
+/* Active = animé vers le bas */
+.menu.active {
+    max-height: 300px;
+    /* Ajuste selon ton contenu */
     opacity: 1;
     transform: translateY(0);
     padding: 10px 0;
-  }
-  
-  
-  /* Animation burger */
-  .burger.active div:nth-child(1) {
+}
+
+
+/* Animation burger */
+.burger.active div:nth-child(1) {
     transform: rotate(45deg) translate(7px, 5px);
-  }
-  
-  .burger.active div:nth-child(2) {
+}
+
+.burger.active div:nth-child(2) {
     opacity: 0;
-  }
-  
-  .burger.active div:nth-child(3) {
+}
+
+.burger.active div:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -5px);
-  }  
+}
 
 /*-------------------------- [ADAPTATION PAR MEDIA QUERIES]  --------------------------*/
 /*changement lorsque le navigateur est a  moins de 1000px*/
 @media only screen and (max-width:1000px) {
 
     nav ul {
-    font-size: clamp(20px, 2vw ,44px);
+        font-size: clamp(20px, 2vw, 44px);
     }
 
     /*change l'emplacement*/
@@ -465,19 +502,23 @@ nav ul li:hover {
         flex-direction: column;
         align-items: center;
     }
+
     /*déasigne la largeur*/
     .main-gauche {
         width: 70vw;
     }
+
     /*n'affiche pu la boite de droite*/
     aside {
         display: none;
     }
+
     /*désigne l'emplacement des deux boites dans le footer*/
     .container-footer {
         flex-direction: column;
         align-items: center;
     }
+
     /*désigne la largeur des boites et leur position*/
     .footer-droite {
         width: 70vw;
@@ -488,22 +529,27 @@ nav ul li:hover {
     .info p {
         width: 40vw;
     }
+
     /*désigne la taille des images*/
     .ligne-haut {
         scale: 1.5;
     }
+
     /*désigne la taille des images*/
     .ligne-bas {
         scale: 1.5;
     }
+
     /*désigne la largeur*/
     .trois {
         width: 50vh;
     }
+
     /*désigne la largeur*/
     .info {
         width: 70vw;
     }
+
     /*désigne la position*/
     .mois {
         justify-content: center;
