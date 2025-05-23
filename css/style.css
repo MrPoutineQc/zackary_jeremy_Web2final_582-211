@@ -376,9 +376,89 @@ nav ul li:hover {
     transition: all 0.3s ease-in-out;
 }
 
+#burger {
+    display: none;
+}
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .burger div {
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .menu {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: max-height 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+    flex-direction: column;
+    background: var(--bg-button);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 5px var(--bd-button);
+    width: 80vw;
+    margin: auto;
+    max-width: 1407px;
+    padding: 0 0;
+  }
+  
+  /* Liens dans le menu */
+  .menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue-text);
+    padding: 10px 20px;
+    font-size: clamp(12px, 1.5vw, 18px);
+    transition: all 0.3s ease-in-out;
+    font-family: "Lemonada", cursive;
+  }
+  
+  /* Hover */
+  .menu a:hover {
+    color: black;
+  }
+  
+  /* Active = animé vers le bas */
+  .menu.active {
+    max-height: 300px; /* Ajuste selon ton contenu */
+    opacity: 1;
+    transform: translateY(0);
+    padding: 10px 0;
+  }
+  
+  
+  /* Animation burger */
+  .burger.active div:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 5px);
+  }
+  
+  .burger.active div:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger.active div:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -5px);
+  }  
+
 /*-------------------------- [ADAPTATION PAR MEDIA QUERIES]  --------------------------*/
 /*changement lorsque le navigateur est a  moins de 1000px*/
 @media only screen and (max-width:1000px) {
+
+    nav ul {
+    font-size: clamp(20px, 2vw ,44px);
+    }
+
     /*change l'emplacement*/
     .container-main {
         display: flex;
@@ -427,5 +507,17 @@ nav ul li:hover {
     /*désigne la position*/
     .mois {
         justify-content: center;
+    }
+
+    .prog {
+        display: none;
+    }
+
+    .information {
+        display: none;
+    }
+
+    #burger {
+        display: flex;
     }
 }
