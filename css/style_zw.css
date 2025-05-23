@@ -28,7 +28,7 @@
     margin-bottom: 4vh;
     border: 4px black solid;
     border-radius: 35px;
-    background-color: white;
+    background-color: var(--text);
     width: 13vw;
     height: 360px;
     display: flex;
@@ -47,6 +47,16 @@
     cursor: pointer;
 }
 
+/* Rend le PNG noir en blanc */
+.service-box:hover img {
+    filter: invert(1);
+}
+
+/* Rend le text noir en blanc (J'aurais effectivement pu simplement changer la couleur) */
+.service-box:hover p {
+    filter: invert(1);
+}
+
 /* Style des textes dans les boites */
 .service-box p {
     display: flex;
@@ -61,7 +71,7 @@
     width: 10vw;
 }
 
-#info-container p{
+#info-container p {
     font-family: "lemonada";
     line-height: 3vh;
 }
